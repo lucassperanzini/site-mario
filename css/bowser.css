@@ -1,0 +1,28 @@
+.cabecalho_b {
+    background-image: url(../img/mushroom.webp);
+    border: 5px;
+    border-radius: 5px;
+    opacity: 0.85;
+    padding: 25px;
+}
+
+.bowser_logo{
+    width: 100px;
+}
+
+body{
+    background-image: url(../img/bowser.jpg);
+    background-attachment: fixed;
+
+}
+
+
+
+
+
+
+.footer_b {
+
+    background-color: azure;
+}
+

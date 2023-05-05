@@ -1,0 +1,247 @@
+
+
+
+
+.cabecalho_n{
+
+    background-color: rgb(237, 9, 9);
+    background-attachment: fixed;
+    border: 5px;
+    border-radius: 5px;
+    opacity: 0.90;
+    padding: 25px;
+}
+
+
+.nintendo {
+    width: 140px;
+
+}
+
+
+
+
+
+.corpo_n {
+
+    background-image: url(../img/cogumelo.jpg);
+    background-attachment: fixed;
+  
+
+}
+
+.titulo_n {
+
+    color: rgb(255, 255, 255);
+}
+
+
+
+.div_personagens{
+    /* display: flex;
+    flex-direction: column; */
+    width: 1000px;
+    height:auto;
+    border: 8px solid white;
+    background-color: red;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+
+.div_mario {
+
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+  
+}
+
+.mario {
+    width: 150px;
+    
+}
+
+.caixa_descrição {
+    margin-left: 50px;
+    width: 400px;
+    height: 200px;
+    border: solid 4px white; 
+    border-radius: 6px;
+    overflow: auto;
+   
+}
+
+.bloco{
+
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    
+
+}
+
+
+
+
+.p_personagens {
+
+    color: white;
+}
+
+
+.div_luigi {
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(77, 140, 14);
+    padding: 30px;
+}
+
+
+.Luigi{
+
+    width: 150px
+    
+    }
+
+
+
+
+
+.div_bowser{
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(25, 26, 25);
+    padding: 30px;
+
+}
+
+
+.bowser{
+
+    width: 150px;
+}
+
+
+.div_peach {
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(211, 43, 138);
+    padding: 30px;
+
+    
+}
+
+.peach {
+
+    width: 150px;
+}
+
+
+
+.box_branco{
+
+    
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/mario_gelo.webp);
+    
+}
+
+
+.div_cobras_mario{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cobra{
+    width: 150px;
+}
+
+
+.caixa_box{
+    display: flex;
+    width: 300px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 3px 4px 3px black;
+    background: linear-gradient(to bottom right, rgb(224, 109, 109), rgb(224, 9, 9));
+    box-sizing: border-box;
+   
+
+}
+.mario_pequeno {
+
+    width: 75px;
+}
+
+#texto1 {
+
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.caixa_box:hover{
+
+    background: linear-gradient(to bottom right, rgb(224, 9, 9),rgb(224, 109, 109));
+    border: solid 5px white;
+
+}
+.Terceiro {
+
+    display: flex;
+    justify-content: center;
+}
+
+.box_mario_l{
+    margin-top: 150px;
+    width: 50%;
+    height:auto;
+    border: solid 5px rgb(255, 255, 255);
+    background-color: rgb(216, 22, 22);
+}
+
+.elementos {
+
+    display: flex;
+    margin: 30px;
+    padding: 25px;
+    justify-content: space-around;
+}
+.bros_plumbing {
+
+    width: 100px;
+}
+
+.logo_encanador {
+
+    width: 350px;
+}
+
+.number {
+    text-align: center;
+    font-size: 4em;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+}
+
+.flex_box {
+    display: flex;
+    justify-content: center;
+}
+.box_text {
+
+    width: 600px;
+}
+
+.mini_texto {
+    font-size: 0.8em;
+}

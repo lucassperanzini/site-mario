@@ -1,0 +1,161 @@
+.donkey {
+
+    width: 140px;
+    
+}
+
+.donkey:hover {
+
+    animation: pulos 6s linear forwards;
+
+}
+
+
+
+@keyframes pulos {
+    0%, 100% {
+      transform: translateX(0) translateY(0);
+    }
+    10%, 90% {
+      transform: translateX(100px) translateY(-50px);
+    }
+    20%, 80% {
+      transform: translateX(200px) translateY(0);
+    }
+    30%, 70% {
+      transform: translateX(300px) translateY(-50px);
+    }
+    40%, 60% {
+      transform: translateX(400px) translateY(0);
+    }
+    50% {
+      transform: translateX(500px) translateY(-100px);
+    }
+  }
+  
+
+.caixas_kong {
+
+    background:linear-gradient( to bottom right, rgb(45, 94, 104), rgba(141, 103, 22, 0.46));
+    border: 5px solid pink;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 2em;
+}
+
+.img_p{
+    margin-top: 25px;
+    margin-left: 10px;
+
+
+}
+
+.donkey_caixa{
+    width: 200px;
+    margin-right: 12px;
+    float: left;
+}
+
+.diddy_caixa {
+
+    width: 175px;
+    margin-right: 20px; 
+    float: left;
+}
+
+.krank_caixa{
+
+    width: 200px;
+    height: 225px;
+    float: left;
+   
+}
+
+
+
+
+.duas_div {
+    display: flex;
+}
+.section_beleleu {
+    display: inline-block;
+    background-color: rgb(5, 112, 112);
+    margin: 100px;
+    border-radius: 8px;
+    border: 5px solid pink; 
+    box-sizing: border-box;
+
+}
+
+
+
+.beleleu {
+    margin: 100px;
+    background-color: rgb(199, 21, 122);
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.Não_ao_beleleu{
+    background-color: aquamarine;
+    margin: 100px;
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.Não_ao_beleleu2 {
+
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: orange;
+    margin: 100px;
+    overflow: auto;
+}
+
+.dois_containers {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+
+
+
+}
+
+.div_amou {
+
+    width: 500px;
+    height: 250px;
+    background-color: orange;
+    margin: 20px;
+}
+
+.div_gostou {
+
+    width: 500px;
+    height: 250px;
+    background-color: rgb(11, 162, 129);
+    margin: 20px;
+
+}
+
+
+.grande_div {
+    background-color: cadetblue;
+    margin: 100px 20px 10px 40px;
+    width: 700px;
+    height: 250px;
+    margin: 20px;
+} 
