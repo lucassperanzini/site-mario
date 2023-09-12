@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 
 .cabecalho_m{
@@ -7,11 +9,12 @@
     border: 5px;
     border-radius: 5px;
     opacity: 0.90;
-    box-sizing: border-box;
 }
 
 .mario_principal {
-    width:120px;
+    width:5%;
+    padding: 12px;
+    margin-left: 20px;
 
 }
 body{
@@ -29,6 +32,7 @@ body{
 .caixa_textos{
     display: flex;
     width: 60%;
+    height: auto;
     flex-direction: column;
     text-align: center;
 }
@@ -58,7 +62,7 @@ margin:0 auto ;
 p{
     color: aliceblue;
 }
-.bowser
+
 button{
     width: 200px;
     height: 100px;
@@ -69,19 +73,26 @@ button{
 
     display: flex;
     justify-content:space-around;
+
 }
 .cobra{
     width: 150px;
+
 }
 
 .caixa_principal {
-    width: 40%;
-    margin: auto;
+   width: 40%;
+   align-self: flex-end;
+   
+   
+  
     
 }
 
 .mario_grande {
     width: 550px;
+   
+    
     
 }
 #t_mario {

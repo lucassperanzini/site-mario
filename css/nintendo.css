@@ -178,6 +178,7 @@
    
 
 }
+
 .mario_pequeno {
 
     width: 75px;
@@ -190,9 +191,9 @@
 }
 
 .caixa_box:hover{
-
+    transition-delay: 0.5s;
+    transition-duration: 1s ;
     background: linear-gradient(to bottom right, rgb(224, 9, 9),rgb(224, 109, 109));
-    border: solid 5px white;
 
 }
 .Terceiro {
